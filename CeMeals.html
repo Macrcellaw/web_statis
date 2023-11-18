@@ -18,16 +18,23 @@
             <a href=""><img src="logo.png" alt=""></a>
         </div>
         <div class="navbar-nav">
-            <ul>
-                <li><a href="#"><i class="fa fa-home"></i></a></li>
-                <li><a href="#wrap-allproduct"><i class="fa fa-gift"></i></a></li>
-                <li><a href="#product"><i class="fa fa-building"></a></li>
-                <li><a href="#contfooter"><i class="fa fa-phone"></i></a></li>
-            </ul>
+                <a href="#">Home</a>
+                <a href="#wrap-allproduct">Product</a>
+                <div class="dropdown">
+                    <a href="#product">About</a>
+                    <div class="isi-dropdown">
+                        <ul>
+                            <li><a href="abt.html">Profile</a></li>
+                            <li><a href="abt.html" id="Vision & Mission">Vision & Mission</a></li>
+                            <li><a href="abt.html">Our Team</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#contfooter">Contact</a>
         </div>
     </div>
 
-<!--sidebar-->
+
 
 <!--header-->       
     <div class="slides">
@@ -262,7 +269,7 @@
         <div class="card-content">
             <h3>PELAYANAN CEPAT & RAMAH</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio tempora sed, dolor alias blanditiis excepturi placeat.</p>
-            <a href="" class="btn">read more</a>
+            <a href="newsPelayanan.html" class="btn">read more</a>
       </div>
         </div>
     </div>
@@ -272,7 +279,7 @@
         <div class="card-content">
             <h3>BERSERTIFIKASI HALAL</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio tempora sed, dolor alias blanditiis excepturi placeat.</p>
-            <a href="" class="btn">read more</a>
+            <a href="newsHalal.html" class="btn">read more</a>
       </div>
         </div>
     </div>
@@ -282,7 +289,7 @@
         <div class="card-content">
             <h3>BANYAK BANGET DISKONNYA</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio tempora sed, dolor alias blanditiis excepturi placeat.</p>
-            <a href="" class="btn">read more</a>
+            <a href="newsPromo.html" class="btn">read more</a>
       </div>
         </div>
     </div>
@@ -304,21 +311,16 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
-                <div class="col" id="about us"></div>
+                <div class="col" id="about-us">
                     <h3>About Us</h3>
                     <div class="links">
                         <a href="#">Profile</a>
                         <a href="#">Vision & Mission</a>
                         <a href="#">Our Team</a>
                     </div>
-                <div class="col" id="promo"></div>
-                    <h3>Promo</h3>
-                    <div class="links">
-                        <a href="#">Initial Purchase</a>
-                        <a href="#">Bulk Orders</a>
-                        <a href="#">5 Receipts Orders</a>
-                    </div>
-                <div class="col" id="contact"></div>
+                </div>
+                    
+                <div class="col" id="contact">
                     <h3>Contact</h3>
                     <div class="contactdetails">
                         <i class="fa fa-location"></i>
@@ -328,6 +330,8 @@
                         <i class="fa fa-phone"></i>
                         <h6>+62 812345678</h6>
                     </div>
+                </div>
+                    
             </div>
         </div>
 
