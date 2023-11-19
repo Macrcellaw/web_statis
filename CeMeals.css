@@ -59,6 +59,10 @@ body{
     z-index: 9999;
 }
 
+
+
+
+
 /* navbar-dropdown */
 
 .dropdown ul{
@@ -397,7 +401,7 @@ span{
     background: rgba(0, 212, 255, 0.9);
     color: rgba(255,255,255,0.95);
     filter: drop-shadow(0);
-    font-weight: bold;e
+    font-weight: bold;
     transition: all .3s ease; 
 }
   
@@ -584,7 +588,11 @@ footer{
     border-bottom-left-radius: 0;
     background-color:  #7b241c;
 }
-
+footer .cr1{
+    justify-content: justify;
+    align-items: center;
+    padding-left: 30%;
+}
 
   
 
@@ -623,6 +631,8 @@ footer{
         width: 1344px;
     }
 }
+
+
 
 @media (max-width: 992px){
     .slides .navigation .prev, .slides .navigation .next{
